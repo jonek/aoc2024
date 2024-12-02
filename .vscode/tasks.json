@@ -3,14 +3,27 @@
   "tasks": [
     {
       "type": "deno",
-      "command": "test",
-      "args": ["--watch", "--allow-all"],
-      "problemMatcher": ["$deno-test"],
+      "command": "task",
+      "args": ["test"],
+      "problemMatcher": ["$deno"],
+      "label": "deno: test (single run)",
+      "detail": "$ deno task test",
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      }
+    },
+    {
+      "type": "deno",
+      "command": "task",
+      "args": ["test-watch"],
+      "problemMatcher": ["$deno"],
+      "label": "deno: test (watch)",
+      "detail": "$ deno task test-watch",
       "group": {
         "kind": "test",
         "isDefault": true
-      },
-      "label": "deno: test"
+      }
     }
   ]
 }
