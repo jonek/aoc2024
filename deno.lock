@@ -1,14 +1,11 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@std/assert@0.221": "0.221.0",
+    "jsr:@std/assert@0.221": "0.221.0"
   },
   "jsr": {
     "@std/assert@0.221.0": {
       "integrity": "a5f1aa6e7909dbea271754fd4ab3f4e687aeff4873b4cef9a320af813adb489a"
     }
-  },
-  "remote": {
-    "https://deno.land/std@0.94.0/node/tty.ts": "9fa7f7b461759774b4eeab00334ac5d25b69bf0de003c02814be01e65150da79",
   }
 }
